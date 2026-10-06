@@ -1,0 +1,1 @@
+{% extends 'base.html' %}{% block c %}<article><h1>{{x.title}}</h1><p><b>Замовник:</b> {{x.buyer}}</p><p><b>Вартість:</b> {{x.value or '—'}} {{x.currency}}</p><p class="desc">{{x.description}}</p><a href="{{x.url}}">Відкрити джерело</a></article>{% endblock %}
